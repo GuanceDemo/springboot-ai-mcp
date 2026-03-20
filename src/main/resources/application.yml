@@ -8,7 +8,7 @@ spring:
     model:
       chat: zhipuai
     zhipuai:
-      api-key: 8e7cb5a7ead6467f802af2ae4839fa59.uIlm7ETfvUFkrZN7
+      api-key: <zhipuai api key>
       base-url: https://open.bigmodel.cn/api/paas
       chat:
         options:
@@ -21,11 +21,11 @@ app:
     model: glm-4.5-air
     system-prompt: 你是一个面向企业应用的 Spring Boot AI Agent，回答需要简洁、准确，并优先给出可执行建议。
     zhipu:
-      api-key: 8e7cb5a7ead6467f802af2ae4839fa59.uIlm7ETfvUFkrZN7
+      api-key: <zhipuai api key>
       base-url: https://open.bigmodel.cn
       chat-path: /api/paas/v4/chat/completions
     guance:
       base-url: https://obsy-ai.guance.com
       endpoint: /obsy_ai_mcp/mcp
-      api-key: 0KrkqDHy9sVfhQjZewbTXcv5OU3xdtPG
+      api-key: <guance api key>
       site-key: cn1
